@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap');
+.body{
+    
+    overflow-x: hidden;
+
+}
+.main-img{
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.top-nav{
+    
+    background-color: rgb(255, 145, 0);
+    height: 40px;
+    
+}
+
+/*nav bar*/
+
+nav{
+	width: 90%;
+	height: 45px;
+	background-color: #fff;
+	line-height: 25px;
+	padding-left: 100px;
+	
+}
+
+
+nav ul{
+	padding-left: 26%;
+}
+nav ul li{
+	display: inline-block;
+	list-style: none;
+}
+nav ul li a{
+	color:#000f2c;
+	text-transform: uppercase;
+	padding:0px 32px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: #000f2c;
+    transition: all .3s ease;
+    line-height: 1.2;
+    line-height: 120%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+nav ul li a:hover{
+	color: #0369c7;
+}
+
+
+/* cover image*/
+.cover-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    width: 90%;
+}
+
+.img-container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+
