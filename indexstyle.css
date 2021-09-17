@@ -24,18 +24,16 @@
 /*nav bar*/
 
 nav{
-	width: 90%;
+	
 	height: 45px;
 	background-color: #fff;
 	line-height: 25px;
-	padding-left: 100px;
+	text-align: center;
 	
 }
 
 
-nav ul{
-	padding-left: 26%;
-}
+
 nav ul li{
 	display: inline-block;
 	list-style: none;
